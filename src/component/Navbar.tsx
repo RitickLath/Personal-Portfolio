@@ -1,12 +1,15 @@
-import type { FC } from "react";
+import { useState, type FC } from "react";
 
-const items = ["Home", "Project", "About", "Contact"];
+const items = ["Home", "Project", "Tech Stack", "Contact"];
 
 const Navbar: FC = () => {
+  const [nowId, setNowId] = useState("home");
   const handleClick = (id: string) => {
     const element = document.getElementById(id);
+    //console.log(element?.id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
+      setNowId(element?.id || "home");
     }
   };
 
@@ -17,7 +20,9 @@ const Navbar: FC = () => {
           <button
             key={el}
             onClick={() => handleClick(el.toLowerCase())}
-            className="px-4 hover:bg-[#202227] cursor-pointer font-semibold text-white py-2 rounded-full"
+            className={`${
+              nowId == el.toLowerCase() ? "bg-[#B67432]" : ""
+            } px-4 hover:bg-[#202227] cursor-pointer font-semibold text-white py-2 rounded-full`}
           >
             {el}
           </button>
