@@ -27,7 +27,10 @@ import {
   SiNginx,
   SiPython,
   SiCloudflare,
+  SiPostman,
 } from "react-icons/si";
+import { DiFirebase } from "react-icons/di";
+import { AiFillOpenAI } from "react-icons/ai";
 
 export const frontendSkills = [
   { title: "JavaScript", icon: <SiJavascript /> },
@@ -68,4 +71,8 @@ export const languageSkills = [
   { title: "TypeScript", icon: <SiTypescript /> },
   { title: "Python", icon: <SiPython /> },
   { title: "Java", icon: <FaJava /> },
+  { title: "Git", icon: <FaJava /> },
+  { title: "Postman", icon: <SiPostman /> },
+  { title: "Firebase", icon: <DiFirebase /> },
+  { title: "OpenAPI", icon: <AiFillOpenAI /> },
 ];

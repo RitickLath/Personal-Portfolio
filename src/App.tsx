@@ -1,3 +1,4 @@
+import Contact from "./component/Contact";
 import Landing from "./component/Landing";
 import Navbar from "./component/Navbar";
 import Project from "./component/Project";
@@ -10,6 +11,7 @@ const App = () => {
       <Landing />
       <Project />
       <Toolbox />
+      <Contact />
     </div>
   );
 };

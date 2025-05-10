@@ -26,7 +26,7 @@ const ProjectCard = ({
   return (
     <div className="bg-[#0e0d0d] w-full px-8 py-6 shadow-md max-w-3xl rounded-xl">
       {/* Project Type */}
-      <h2 className="text-sm text-blue-400 mb-1">{type}</h2>
+      <h2 className="text-sm text-[#00AAFF] mb-1">{type}</h2>
 
       {/* Title and Links */}
       <div className="flex justify-between items-center">

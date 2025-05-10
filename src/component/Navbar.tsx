@@ -22,7 +22,7 @@ const Navbar: FC = () => {
             onClick={() => handleClick(el.toLowerCase())}
             className={`${
               nowId == el.toLowerCase() ? "bg-[#B67432]" : ""
-            } px-4 hover:bg-[#202227] cursor-pointer font-semibold text-white py-2 rounded-full`}
+            } px-3 py-1 sm:px-4 sm:py-2 hover:bg-[#202227] cursor-pointer font-semibold text-white rounded-full`}
           >
             {el}
           </button>
