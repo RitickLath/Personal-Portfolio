@@ -34,7 +34,7 @@ const Toolbox = () => {
   ];
 
   return (
-    <div id="tech-stack" className="w-full px-4 flex justify-center">
+    <div id="tech stack" className="w-full px-4 flex justify-center">
       <div className="mt-16 max-w-7xl w-full">
         {/* Header */}
         <div className="text-center mb-8">

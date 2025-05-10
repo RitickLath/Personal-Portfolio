@@ -13,7 +13,10 @@ const Contact = () => {
   };
 
   return (
-    <div className="px-4 w-full min-h-screen flex items-center justify-center">
+    <div
+      id="contact"
+      className="px-4 w-full min-h-screen flex items-center justify-center"
+    >
       <div className="mt-16 max-w-7xl w-full">
         <div className="flex flex-col items-center text-center mb-8">
           <h1 className="text-4xl font-bold my-4">Let's Connect</h1>
