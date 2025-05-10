@@ -16,7 +16,7 @@ const fadeInUp = {
 
 const Landing = () => {
   return (
-    <div id="home" className="w-full h-[93vh] flex justify-center items-center">
+    <div id="home" className="px-4 w-full h-[93vh] flex justify-center items-center">
       <Squares
         speed={0.1}
         squareSize={80}
@@ -71,16 +71,28 @@ const Landing = () => {
 
         <div className="mt-6">
           <motion.button
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1yeRkSje2T9AsjvH2VmKHxfKptqdpV4L2/view?usp=sharing",
+                "_blank"
+              )
+            }
             className="cursor-pointer hover:scale-110 mr-6 px-6 py-3 rounded-md border-[1px] border-[#B67432]"
             custom={4}
             variants={fadeInUp}
             initial="hidden"
             animate="visible"
           >
-            Explore My Work
+            Resume
           </motion.button>
 
           <motion.button
+            onClick={() => {
+              const contactElement = document.getElementById("contact");
+              if (contactElement) {
+                contactElement.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
             className="mt-3 cursor-pointer hover:scale-110 px-6 py-3 rounded-md bg-[#00AAFF] text-black font-semibold"
             custom={5}
             variants={fadeInUp}

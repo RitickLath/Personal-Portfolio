@@ -1,3 +1,4 @@
+import About from "./component/About";
 import Contact from "./component/Contact";
 import Landing from "./component/Landing";
 import Navbar from "./component/Navbar";
@@ -11,6 +12,7 @@ const App = () => {
       <Landing />
       <Project />
       <Toolbox />
+      <About />
       <Contact />
     </div>
   );
