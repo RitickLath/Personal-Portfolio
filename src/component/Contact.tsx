@@ -1,15 +1,15 @@
 import { MdNavigateNext } from "react-icons/md";
-import React, { useState } from "react";
+import React from "react";
 import { Contactlinks } from "../constants/contacts";
 
 const Contact = () => {
-  const [form, setForm] = useState({ name: "", email: "", message: "" });
+  //const [form, setForm] = useState({ name: "", email: "", message: "" });
 
   const handleChange = () => {};
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log(form);
+    //console.log(form);
   };
 
   return (
@@ -55,7 +55,7 @@ const Contact = () => {
               type="text"
               name="name"
               placeholder="Your Name"
-              value={form.name}
+              //value={form.name}
               onChange={handleChange}
               required
               className="w-full p-3 rounded-md bg-[#0e0d0d] text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00AAFF]"
@@ -64,7 +64,7 @@ const Contact = () => {
               type="email"
               name="email"
               placeholder="Your Email"
-              value={form.email}
+              //value={form.email}
               onChange={handleChange}
               required
               className="w-full p-3 rounded-md bg-[#0e0d0d] text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00AAFF]"
@@ -73,7 +73,7 @@ const Contact = () => {
               name="message"
               placeholder="Your Message"
               rows={5}
-              value={form.message}
+              //value={form.message}
               onChange={handleChange}
               required
               className="w-full p-3 rounded-md bg-[#0e0d0d] text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#00AAFF]"

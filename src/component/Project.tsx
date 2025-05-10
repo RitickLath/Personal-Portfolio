@@ -55,7 +55,7 @@ const Project = () => {
           <span>Previous</span>
         </button>
         {/* dots */}
-        {projectsData.map((c, index) => (
+        {projectsData.map((_, index) => (
           <div
             key={index}
             className={`${

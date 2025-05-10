@@ -1,4 +1,4 @@
-import { motion, scale } from "framer-motion";
+import { motion } from "framer-motion";
 import Squares from "../ExternalComponent/Squares";
 
 const fadeInUp = {
