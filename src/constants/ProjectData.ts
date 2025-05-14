@@ -3,128 +3,125 @@ export const projectsData = [
     title: "Imaginary",
     type: "Personal Project",
     overview:
-      "A collaborative design tool that allows teams to share real-time prototypes and gather instant feedback.",
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "Prisma"],
+      "Imaginary is an advanced image editing application offering AI-powered image transformation features like enhancement, sharpening, background removal, and AI-based restoration. Built with Next.js and secured by Clerk authentication, it provides 15 free edits with a credit-based system for more.",
+    techStack: [
+      "Next.js",
+      "PostgreSQL",
+      "Prisma ORM",
+      "Cloudinary",
+      "Clerk",
+      "Recoil",
+      "Tailwind CSS",
+      "Server Action",
+    ],
     metrics: [
-      "Over 500 active users in 2 months",
-      "Realtime sync powered by WebSockets",
-      "Deployed on Vercel with CI/CD via GitHub Actions",
+      "Deployed on Vercel for scalability",
+      "Secure user authentication with Clerk",
+      "Credit-based system for monetization",
     ],
     links: {
-      live: "https://imaginary.app",
-      github: "https://github.com/username/imaginary",
-      docs: "https://docs.imaginary.app",
+      live: "https://imaginary1.netlify.app/",
+      github: "https://github.com/RitickLath/Imaginary",
     },
   },
   {
-    title: "TaskHive",
-    type: "Open Source",
-    overview:
-      "An open source task management system for agile teams with drag-and-drop boards.",
-    techStack: ["React", "Redux", "Express", "MongoDB", "Docker"],
-    metrics: [
-      "Used by 30+ teams worldwide",
-      "100+ GitHub stars",
-      "Fully containerized for easy deployment",
-    ],
-    links: {
-      live: "https://taskhive.dev",
-      github: "https://github.com/username/taskhive",
-      docs: "https://docs.taskhive.dev",
-    },
-  },
-  {
-    title: "DevLog",
-    type: "Personal Blog",
-    overview:
-      "A minimal, markdown-powered blog built with static generation and developer-focused theming.",
-    techStack: ["Next.js", "MDX", "Tailwind CSS"],
-    metrics: [
-      "Core Web Vitals score: 100%",
-      "100+ subscribers",
-      "Integrated with Notion CMS",
-    ],
-    links: {
-      live: "https://devlog.blog",
-      github: "https://github.com/username/devlog",
-    },
-  },
-  {
-    title: "ShopStream",
-    type: "Client Project",
-    overview:
-      "A real-time analytics dashboard for tracking eCommerce performance and user behavior.",
-    techStack: ["Vue.js", "Vite", "Firebase", "Chart.js"],
-    metrics: [
-      "Realtime data across 10K products",
-      "99.9% uptime via Firebase Hosting",
-      "Delivered in under 3 weeks",
-    ],
-    links: {
-      live: "https://shopstream.app",
-    },
-  },
-  {
-    title: "AI Resume Builder",
-    type: "Hackathon Project",
-    overview:
-      "AI-powered resume generator that tailors content to job descriptions using GPT models.",
-    techStack: ["React", "OpenAI API", "Express", "MongoDB"],
-    metrics: [
-      "Top 5 finalist at DevJam '24",
-      "Generated 1K+ resumes in beta",
-      "Uses GPT-4 for content optimization",
-    ],
-    links: {
-      github: "https://github.com/username/ai-resume",
-    },
-  },
-  {
-    title: "QuikPoll",
-    type: "Client Project",
-    overview:
-      "A real-time polling app used for live events and webinars, built for scalability and speed.",
-    techStack: ["SvelteKit", "Redis", "PostgreSQL", "Socket.io"],
-    metrics: [
-      "Handles 10K+ concurrent users",
-      "Latency under 200ms globally",
-      "Live analytics dashboard included",
-    ],
-    links: {
-      live: "https://quikpoll.live",
-      github: "https://github.com/username/quikpoll",
-    },
-  },
-  {
-    title: "CodeQuest",
+    title: "Edubridge",
     type: "Personal Project",
     overview:
-      "An interactive coding platform for solving algorithm challenges with real-time code evaluation.",
-    techStack: ["Next.js", "TypeScript", "Monaco Editor", "WebAssembly"],
+      "EduBridge is a MERN stack-based online learning platform with secure JWT & OTP authentication. Instructors can manage courses, while students browse detailed course information. Features include input validation with Zod and a contact form for inquiries.",
+    techStack: [
+      "React",
+      "React Router",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Mongoose",
+      "JWT",
+      "Nodemailer",
+      "Zod",
+      "Tailwind CSS",
+      "Vercel",
+      "Render",
+      "Cloudinary",
+    ],
     metrics: [
-      "50+ coding problems",
-      "In-browser code execution",
-      "Leaderboards and submissions",
+      "JWT & OTP authentication for secure access",
+      "Dynamic course management system",
+      "Deployed on Vercel & Render",
     ],
     links: {
-      live: "https://codequest.dev",
-      github: "https://github.com/username/codequest",
+      live: "https://netflixgpt-3dea2.firebaseapp.com/",
+      github: "https://edtech-portal.vercel.app/",
     },
   },
   {
-    title: "Portify",
-    type: "Template Project",
+    title: "Advance Netflix GPT",
+    type: "Personal Project",
     overview:
-      "A modern, customizable portfolio template optimized for performance and SEO.",
-    techStack: ["React", "Framer Motion", "Tailwind CSS", "Vercel"],
+      "Netflix GPT replicates the Netflix experience with TMDB API integration, Firebase Authentication, and OpenAI GPT-based movie recommendations. Built with React and Tailwind CSS, it offers a high-performance UI with a Lighthouse score of 95+.",
+    techStack: [
+      "React",
+      "TMDB API",
+      "Firebase",
+      "OpenAI GPT",
+      "React Router",
+      "Tailwind CSS",
+      "JavaScript",
+      "Responsiveness",
+    ],
     metrics: [
-      "Lighthouse score: 100",
-      "Cloned by 200+ developers",
-      "Includes dark mode, animations, and SEO tags",
+      "OpenAI GPT-powered recommendations",
+      "95+ Lighthouse performance score",
+      "Firebase Authentication for user access",
     ],
     links: {
-      live: "https://portify.dev",
-      github: "https://github.com/username/portify",
+      live: "https://netflixgpt-3dea2.firebaseapp.com/",
+      github: "https://github.com/RitickLath/Netflix_GPT",
+    },
+  },
+  {
+    title: "Airbnb Clone",
+    type: "Personal Project",
+    overview:
+      "A full-stack Airbnb clone featuring user authentication, property listings, booking management, reviews, and advanced search/filtering. Built with Next.js, Prisma, and Tailwind CSS.",
+    techStack: [
+      "Next.js",
+      "Prisma",
+      "Tailwind CSS",
+      "NextAuth.js",
+      "PostgreSQL",
+    ],
+    metrics: [
+      "Full booking and review management system",
+      "NextAuth.js for secure authentication",
+      "Deployed on Vercel",
+    ],
+    links: {
+      live: "https://aairbnb-seven.vercel.app/",
+      github: "https://github.com/RitickLath/aairbnb",
+    },
+  },
+  {
+    title: "Giphy Clone",
+    type: "Personal Project",
+    overview:
+      "A responsive web app that allows users to browse, search, and favorite GIFs, Stickers, and Clips from the Giphy API. Features include optimized debounced search and a favorites section.",
+    techStack: [
+      "React",
+      "JavaScript",
+      "Tailwind CSS",
+      "Giphy API",
+      "Debouncing",
+      "Responsiveness",
+    ],
+    metrics: [
+      "Debounced search for optimized performance",
+      "Favorites section for saved GIFs",
+      "Responsive design deployed on Netlify",
+    ],
+    links: {
+      live: "https://giphy1.netlify.app/Science",
+      github: "https://github.com/RitickLath/Gipgy-Clone",
     },
   },
 ];
