@@ -28,7 +28,7 @@ export const projectsData = [
     title: "DSA Problem-Solving Platform",
     type: "Personal Project",
     overview:
-      "A full-stack competitive programming platform for solving Data Structures & Algorithms problems with features like AI-powered doubt assistance, Judge0-based code execution, interactive discussions, and submission tracking. Optimized backend with Node.js Cluster for multi-core utilization, deployed on AWS with Nginx reverse proxy and PM2 process management.",
+      "Developed 'Lets Code', a LeetCode-like full-stack platform for practicing Data Structures & Algorithms, featuring problem-solving, code execution, AI-powered doubt assistance, interactive discussions, and a user dashboard for progress tracking",
     techStack: [
       "Node.js",
       "Express",
@@ -45,7 +45,6 @@ export const projectsData = [
       "TypeScript",
     ],
     metrics: [
-      "Developed 'Lets Code', a LeetCode-like full-stack platform for practicing Data Structures & Algorithms, featuring problem-solving, code execution, AI-powered doubt assistance, interactive discussions, and a user dashboard for progress tracking",
       "Architected a high-performance backend using Node.js Cluster to fully utilize all CPU cores, enabling parallel request processing and reducing average API response times by up to 40% under load",
       "Delivered AI-powered doubt resolution using Google Gemini 2.5 Flash, providing context-aware coding guidance and reducing support turnaround time",
       "Implemented secure role-based authentication & authorization with JWT and middleware (`userAuth`, `adminAuth`) to protect sensitive API routes",
