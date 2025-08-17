@@ -56,7 +56,7 @@ export const projectsData = [
     ],
 
     links: {
-      live: "",
+      live: "https://letssscode.netlify.app/",
       github: "https://github.com/RitickLath/lets-code",
     },
   },
